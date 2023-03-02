@@ -19,7 +19,6 @@
         crossorigin="anonymous"></script>
         <script src="./para.js"></script>
 </head>
-
 <body>
     <form  onsubmit="handleSubmit(event)" >
         <div class="form-row m-5">
@@ -27,7 +26,9 @@
     <textarea class="form-control" id="text" rows="3" onchange="data1()"></textarea>
     <button type="submit" class="btn btn-primary mb-2 m-3">Confirm</button>
 </div>
-<input type="text " name="" id="input1" placeholder="Replace" class="ml-5 w-25">
+<input type="text " name="" id="input1" placeholder="name" class="ml-5 w-25">
+<button type="submit" class="btn btn-primary mb-2 m-3 ml-5 d-block" onclick="replace()">Replace</button>
+<input type="text " name="" id="input2" placeholder="Replace" class="ml-5 w-25">
 <button type="submit" class="btn btn-primary mb-2 m-3 ml-5 d-block" onclick="replace()">Replace</button>
 <label for="exampleFormControlTextarea1">Example textarea</label>
 <p class="border" id="dataa" rows="3"></p>
